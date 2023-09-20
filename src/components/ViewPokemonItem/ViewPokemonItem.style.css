@@ -1,0 +1,44 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.pokemon-img {
+  background-color: #dee2e6;
+  width: 100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.card-name {
+  font-size: 2rem;
+}
+
+.card__details {
+  padding: 16px 8px 8px 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  border: 1px solid #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+  margin: 4px;
+}

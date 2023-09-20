@@ -1,0 +1,18 @@
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #00a6fb;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .footer div {
+    padding: 20px;
+  }
+  
